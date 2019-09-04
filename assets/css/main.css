@@ -1,0 +1,10 @@
+.h-100 {
+    height:100vh !important;
+}
+
+.jumbotronMauricio {
+    background-image: url("../images/chapman-chow-unsplash.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: bottom;
+}
