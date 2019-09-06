@@ -18,9 +18,14 @@
                 
                 <form class="form-inline">
                     <input class="form-control mr-sm-2 d-none" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="material-icons">
+                    <button class="btn btn-outline-success my-2 my-sm-0 d-none d-md-block " type="submit"><i class="material-icons">
                             search
                             </i></button>
+
+                    <button class="btn btn-outline-success my-2 my-sm-0 d-md-none" type="submit"><i class="material-icons">
+                            menu
+                            </i></button>
+
                 </form>
                 <div class = "">
                     <p>
@@ -34,16 +39,23 @@
 
         <div class="jumbotronMauricio jumbotron jumbotron-fluid h-100 d-flex align-items-center ">
                 <div class="container ">
-                  <h1 class="display-4 d-flex justify-content-center">8:52</h1>
-                  <h1 class="display-4 d-flex justify-content-center">Good evening, user</h1>
-                  <p class="lead d-flex justify-content-center">What's your main focus for today?</p>
-                  <form>
-                        <div class="form-group">
-                          
-                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-                        </div>
-                        
-                    </form>
+                    <div class="row">
+                        <h1 class="display-4 d-flex justify-content-center col-6 col-md-12">8:52</h1>
+                        <h1 class="display-4 d-flex justify-content-center col-6 col-md-12">Good evening, user</h1>
+                    </div>
+
+
+                    <div class = "row">
+                        <p class="lead d-flex justify-content-center col-6 col-md-12">What's your main focus for today?</p>
+                        <form class="col-6 col-md-12">
+                                <div class="form-group">
+                                
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                </div>
+                                
+                        </form>
+
+                    </div>
                 </div>
         </div>
     </div>
